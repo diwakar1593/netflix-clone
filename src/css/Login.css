@@ -1,0 +1,6 @@
+.login{
+    position: relative;
+    height: 100%;
+    background:url('https://assets.nflxext.com/ffe/siteui/vlv3/f1c3c4eb-2fea-42c7-9ebd-1c093bd8a69d/9c9af369-7a8c-4c8f-8e4a-d6c9d655f713/IN-en-20230403-popsignuptwoweeks-perspective_alpha_website_medium.jpg') center no-repeat;
+    background-size: cover;
+}
