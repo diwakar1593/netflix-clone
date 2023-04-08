@@ -18,7 +18,8 @@ function Login() {
 
             <form className="login__form">
                 <input type="text" placeholder="Email Address"/>
-                <button>Get Started</button>
+                &nbsp;&nbsp;
+                <button>Get Started ></button>
             </form>
         </div>
 
