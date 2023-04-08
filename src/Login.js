@@ -4,7 +4,7 @@ function Login() {
   return (
     <div className="login">
         <div className="login__header">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt='logo'/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt='logo' className='login__logo'/>
 
             <button className="login__button">
                 Sign In
@@ -20,6 +20,10 @@ function Login() {
                 <input type="text" placeholder="Email Address"/>
                 <button>Get Started</button>
             </form>
+        </div>
+
+        <div className="login__gradient">
+
         </div>
 
     </div>
