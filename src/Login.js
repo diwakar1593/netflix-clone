@@ -17,7 +17,7 @@ function Login() {
             <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
 
             <form className="login__form">
-                <input type="text" placeholder="Email Address"/>
+                <input type="text" placeholder="Email  Address"/>
                 &nbsp;&nbsp;
                 <button>Get Started ></button>
             </form>
