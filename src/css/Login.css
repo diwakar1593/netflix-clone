@@ -17,7 +17,7 @@
     padding: 10px 20px;
     top: 20px;
     right: 325px;
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
     border-radius: 5px;
@@ -37,6 +37,7 @@
     right: 200px;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 .login__body{
     color: #fff;
@@ -60,12 +61,14 @@
     /* font-weight: 400; */
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
+
 .login__body h3{
     font-size: 20px;
     margin-bottom: 30px;
     font-weight: 500;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
+
 .login__body .login__form{
     display: flex;
     align-items: center;
@@ -78,7 +81,6 @@
     padding: 0px 15px;
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.4);
-
 }
 .login__body .login__form input::placeholder{
     transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
